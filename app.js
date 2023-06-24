@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/blogs')
+fetch('http://143.198.225.25:3000/blogs')
   .then(response => response.json())
   .then(data => {
     // Render the blogs here
