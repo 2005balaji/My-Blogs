@@ -1,1 +1,0 @@
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, voluptates ipsa. Reiciendis accusamus earum accusantium hic expedita obcaecati maxime, minima, debitis itaque recusandae, inventore ipsa fugiat veritatis voluptate. Similique, impedit.
