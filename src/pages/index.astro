@@ -9,12 +9,31 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+				.flex{
+					display: flex;
+					flex-direction: row;
+					justify-content : space-between;
+					align-items: center;
+				}
+		</style>
 	</head>
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
-			<h1>{SITE_TITLE}</h1>
-			<p>{SITE_DESCRIPTION}</p>
+			<div class="flex hori">
+								<a href="/blog">
+									<img width={720} height={360}  alt=""  />
+									Blogs
+								</a>
+
+								<a href="/blurps">
+									<img width={720} height={360}  alt="" />
+									Chirps
+								</a>
+			</div>
 		<Footer />
 	</body>
 </html>
+
+
